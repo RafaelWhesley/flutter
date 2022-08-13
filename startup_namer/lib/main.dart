@@ -20,13 +20,13 @@ class RandomWords extends StatefulWidget {
   @override
 class _RandomWordsState extends State<RandomWords> {
   final _suggestions = <WordPair>[];
-  final _biggerFont = const TextStyle(fontSize: 18, color: Colors.deepOrange);
+  final _biggerFont = const TextStyle(fontSize: 18, color: Colors.black);
 
     @override
     Widget build(BuildContext context) {
       return Scaffold(
         appBar: AppBar(
-          title: const Text('Gerador de Nomes de Startups!'),
+          title: const Text('Gerador de Nomes de Startups'),
         ),
         body: _buildsugestions(),
       );
